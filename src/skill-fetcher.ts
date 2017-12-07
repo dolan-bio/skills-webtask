@@ -1,4 +1,4 @@
-import { Observable } from "rxjs/Rx";
+import { Observable } from "rxjs/Observable";
 import * as logger from "winston";
 
 import { ISkillDocument, Skill } from "./skill-model";

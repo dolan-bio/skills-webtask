@@ -1,5 +1,5 @@
 import * as GoogleImages from "google-images";
-import { Observable } from "rxjs/Rx";
+import { Observable } from "rxjs/Observable";
 
 export class ImageFetcher {
     private googleImageClient: GoogleImages;

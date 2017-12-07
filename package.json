@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint --project .",
     "tsc": "rimraf dist && tsc --p .",
-    "deploy": "wt update pubmed-fetcher dist/index.js -b",
+    "deploy": "wt create dist/index.js -p \"app63474144-eu\" -b",
     "build": "npm run tsc && copyfiles package.json dist",
-    "spell": "cspell \"src/**/!(*.wav|*.mp3).*\"",
-    "fetch": ""
+    "spell": "cspell \"src/**/!(*.wav|*.mp3).*\""
   },
   "repository": {
     "type": "git",
@@ -24,13 +23,11 @@
     "rimraf": "^2.6.2",
     "tslint": "~5.8.0",
     "typescript": "2.6.2",
-    "webtask-bundle": "^3.0.1",
     "wt-cli": "^8.2.0"
   },
   "dependencies": {
-    "@types/cheerio": "^0.22.6",
     "@types/mongoose": "^4.7.28",
-    "@types/request-promise": "^4.1.39",
+    "@types/request": "^2.0.8",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",

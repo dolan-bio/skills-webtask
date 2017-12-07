@@ -1,6 +1,7 @@
 import "babel-polyfill";
 import * as mongoose from "mongoose";
 import * as logger from "winston";
+import "./rxjs";
 
 import { SkillAction } from "./action";
 
