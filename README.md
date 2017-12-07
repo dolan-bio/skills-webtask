@@ -1,3 +1,3 @@
-# PubMed Fetcher
+# Skills Webtask
 
-> Tool to fetch pubmed papers and store them to the database
+> Tool to fetch skills from google images and return images
