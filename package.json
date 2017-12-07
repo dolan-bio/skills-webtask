@@ -1,7 +1,7 @@
 {
-  "name": "pubmed-fetcher",
+  "name": "skills",
   "version": "1.0.0",
-  "description": "Fetch pubmed papers and store them",
+  "description": "Fetch my skills",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
