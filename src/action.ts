@@ -1,5 +1,4 @@
 import * as request from "request";
-import { Observable } from "rxjs/Observable";
 
 import { ImageFetcher } from "./image-fetcher";
 import { SkillsFetcher } from "./skill-fetcher";
